@@ -1,0 +1,295 @@
+/*formulario de reservación */
+
+
+/*fondo del form*/
+
+.sct-reservaciones {
+    background: #e4e4e4;
+    padding: 20px;
+}
+
+
+/*ancho de los campos form*/
+
+.sct-reservaciones .formulario_casillas input {
+    width: 28%;
+}
+
+
+/*tamaño del titulo del form*/
+
+.titform1 {
+    font-size: 40px !important;
+}
+
+
+/*tamaño de etiquetas del form*/
+
+.sct-reservaciones label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+/*
+.sct-reservaciones input {
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+*/
+
+
+/*espacio de la leyenda del apartado de radio y el check de terminos*/
+
+legend {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#terminos_y_condiciones {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.checkbox_y_terminos_y_condiciones {
+    margin-top: 50px;
+}
+
+
+/*boton Reservar*/
+
+.sct-reservaciones button {
+    display: flow-root;
+    font-size: 22px;
+    border: solid 2px #000000;
+    color: #000;
+    padding: 10px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin: 0 auto;
+}
+
+.input-error {
+    border: 3px solid red;
+}
+
+
+/*********************************************************************************/
+
+
+/*menu responsive*/
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    color: #000;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 10px 15px 10px;
+    /*con barra de fondo*/
+    /*background-color:#ccc; */
+}
+
+.nav-item img {
+    height: 1.5625rem;
+    margin-top: 15px;
+}
+
+.navbar-nav li a:hover {
+    color: purple !important;
+}
+
+.fijo {
+    position: sticky;
+    /*GOOGLE*/
+    position: fixed;
+    /*IE*/
+    width: 100%;
+    z-index: 1000;
+}
+
+
+/* MENU HAMBURGUESA */
+
+.navbar-toggler {
+    background-color: purple;
+}
+
+.navbar-toggler:hover {
+    background-color: #e2e2e2;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: cyan;
+}
+
+
+/*Conversion lineas MH*/
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+p {
+    font-size: 22px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.bordes {
+    border-radius: 30px;
+}
+
+.tp,
+.tp2 {
+    font-size: 60px;
+    color: purple;
+}
+
+.titulos1 {
+    font-size: 40px;
+}
+
+.titulos2 {
+    font-size: 30px;
+}
+
+.margin {
+    margin-bottom: 80px;
+}
+
+.color1 {
+    color: #000;
+}
+
+.color2 {
+    color: orange;
+}
+
+
+/* scrolltop*/
+
+.go-top {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    text-decoration: none;
+    padding: 1em;
+    border-radius: 30px;
+}
+
+.go-top img:hover {
+    transform: scale(2);
+    transition: all 0.8s;
+    border-radius: 30px;
+}
+
+.container-fluid {
+    padding-top: 130px;
+    padding-bottom: 80px;
+}
+
+
+/* fondos planos secciones */
+
+.fondo1 {
+    background-color: #e2e2e2;
+    color: #000000;
+}
+
+.fondo2 {
+    background-color: #474e5d;
+    color: #ffffff;
+}
+
+.fondo3 {
+    background-color: #ffffff;
+    color: #555555;
+}
+
+.fondo4 {
+    background-color: #2f2f2f;
+    color: #fff;
+}
+
+
+/* pie de página */
+
+.pie {
+    text-align: center;
+    color: #ffffff;
+    line-height: 30px;
+    padding: 80px 0 20px 0;
+}
+
+
+/*espacio entre iconos redes sociales con DIV individuales*/
+
+
+/*espacio con un solo div /*margin: 45px;*/
+
+.espacio {
+    display: inline-block;
+    margin: 0px 15px 0px 15px;
+}
+
+
+/* animacion a los iconos font-awesome */
+
+
+/* Poner modificador::before para aplicar color icono*/
+
+div.animacion1:hover i {
+    transition: all 1s ease-in-out;
+    transform: rotate(360deg);
+}
+
+div.animacion2:hover i {
+    transition: all 1s ease-in-out;
+    transform: rotate(360deg);
+    color: cyan;
+}
+
+div.animacion3:hover i::before {
+    transition: all 1s ease-in-out;
+    color: cyan;
+}
+
+@media (max-width: 576px) {
+    input {
+        width: 100% !important;
+    }
+}
+
+
+/*smartphone logo imagen*/
+
+@media (max-width: 991px) {
+    .logo img {
+        /*margin: 0 auto !important;
+    display: block !important;   */
+        width: 20%;
+        margin-left: 50px;
+    }
+    .navbar-toggler {
+        margin-top: -70px;
+        margin-left: 310px;
+        /*margin:0 auto;*/
+        /*cuando se usa el logo texto*/
+        /*margin-left: auto;*/
+    }
+    .langWrap {
+        display: block !important;
+    }
+}
